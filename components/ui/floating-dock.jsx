@@ -1,3 +1,7 @@
+import { IconLayoutNavbarCollapse } from "@tabler/icons-react";
+import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
+
 const FloatingDockMobile = ({ items, className }) => {
   const [open, setOpen] = useState(false);
   return (
