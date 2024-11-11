@@ -3,19 +3,11 @@ import { cn } from "@/lib/utils";
 import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
 import React from "react";
 
-export const HeroHighlight = ({
-  children,
-  className,
-  containerClassName,
-}) => {
+export const HeroHighlight = ({ children, className, containerClassName }) => {
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
 
-  function handleMouseMove({
-    currentTarget,
-    clientX,
-    clientY,
-  }) {
+  function handleMouseMove({ currentTarget, clientX, clientY }) {
     if (!currentTarget) return;
     const { left, top } = currentTarget.getBoundingClientRect();
 
@@ -56,10 +48,7 @@ export const HeroHighlight = ({
   );
 };
 
-export const Highlight = ({
-  children,
-  className,
-}) => {
+export const Highlight = ({ children, className }) => {
   return (
     <motion.span
       initial={{
@@ -79,7 +68,7 @@ export const Highlight = ({
         display: "inline",
       }}
       className={cn(
-        `relative inline-block pb-1 font-bold   px-1 rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 dark:from-indigo-500 dark:to-purple-500`,
+        `relative inline-block pb-1 font-bold   px-1 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-500 dark:from-indigo-600 dark:to-purple-600`,
         className
       )}
     >
