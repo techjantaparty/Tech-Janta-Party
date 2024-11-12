@@ -28,7 +28,7 @@ export default function AnimatedTestimonialsDemo() {
         "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
       name: "Sayambar Roy Chowdhury",
       designation: "ML Engineer @ TJP",
-      src: "https://res.cloudinary.com/djyk287ep/image/upload/v1731309202/TJP_dgmjtt.png",
+      src: "https://res.cloudinary.com/djyk287ep/image/upload/v1731438036/161194965_g0ryoz.jpg",
     },
     {
       quote:
