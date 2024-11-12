@@ -19,8 +19,8 @@ export const TextGenerateEffect = ({
         filter: filter ? "blur(0px)" : "none",
       },
       {
-        duration: duration ? duration : 0.1,
-        delay: stagger(0.2),
+        duration: duration ? duration : 0.2,
+        delay: stagger(0.3),
       }
     );
   }, [scope.current]);
@@ -46,9 +46,9 @@ export const TextGenerateEffect = ({
   };
 
   return (
-    <div className={cn("font-bold", className)}>
+    <div className={cn("font-bold text-white", className)}>
       <div>
-        <div className=" leading-snug tracking-wide">{renderWords()}</div>
+        <div className=" leading-snug sm:my-[-100px] sm:text-2xl tracking-wide">{renderWords()}</div>
       </div>
     </div>
   );
