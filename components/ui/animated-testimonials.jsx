@@ -24,7 +24,7 @@ export const AnimatedTestimonials = ({
 
   useEffect(() => {
     if (autoplay) {
-      const interval = setInterval(handleNext, 2000);
+      const interval = setInterval(handleNext, 3000);
       return () => clearInterval(interval);
     }
   }, [autoplay]);
@@ -97,7 +97,7 @@ export const AnimatedTestimonials = ({
               opacity: 0,
             }}
             transition={{
-              duration: 0.2,
+              duration: 0.5,
               ease: "easeInOut",
             }}>
             <h3 className="text-2xl font-bold dark:text-white text-white">

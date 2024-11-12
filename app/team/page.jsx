@@ -14,7 +14,7 @@ export default function AnimatedTestimonialsDemo() {
         "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
       name: "Subham Mani",
       designation: "Web Developer @ TJP",
-      src: "https://res.cloudinary.com/djyk287ep/image/upload/v1731309202/TJP_dgmjtt.png",
+      src: "https://res.cloudinary.com/djyk287ep/image/upload/c_crop,ar_1:1/v1731437000/IMG_20241027_201713_aifgoh.jpg",
     },
     {
       quote:
