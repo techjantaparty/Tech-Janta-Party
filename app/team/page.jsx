@@ -11,21 +11,21 @@ export default function AnimatedTestimonialsDemo() {
     },
     {
       quote:
-        "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
+        "As someone who has been in the team from the very first day, i feel proud of how far we have come",
       name: "Subham Mani",
       designation: "Web Developer @ TJP",
       src: "https://res.cloudinary.com/djyk287ep/image/upload/c_crop,ar_1:1/v1731437000/IMG_20241027_201713_aifgoh.jpg",
     },
     {
       quote:
-        "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
+        "It's an honor to be among one of the best tech geeks and always looking forward to more growth and learning opportunities.",
       name: "Ronit Bose",
       designation: "Blockchain Developer @ TJP",
-      src: "https://res.cloudinary.com/djyk287ep/image/upload/v1731309202/TJP_dgmjtt.png",
+      src: "https://res.cloudinary.com/djyk287ep/image/upload/v1731483900/WhatsApp_Image_2024-11-13_at_13.11.42_24400ab9_xqheys.jpg",
     },
     {
       quote:
-        "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
+        "Being part of a dynamic team as well as a cake lover it is always a rollercoaster ride. I'm very excited to see how far we go",
       name: "Sayambar Roy Chowdhury",
       designation: "ML Engineer @ TJP",
       src: "https://res.cloudinary.com/djyk287ep/image/upload/v1731438036/161194965_g0ryoz.jpg",
@@ -33,14 +33,14 @@ export default function AnimatedTestimonialsDemo() {
     {
       quote:
         "Being a member of TJP has not only helped me gain experience as a coder but also helped me gain knowledge from my highly skilled teammates",
-        name: "Dipannita Das",
+      name: "Dipannita Das",
       designation: "Junior Dev @ TJP",
-        src: "https://res.cloudinary.com/djyk287ep/image/upload/v1731432883/WhatsApp_Image_2024-11-12_at_23.01.36_e8919d76_neylqa.jpg",
+      src: "https://res.cloudinary.com/djyk287ep/image/upload/v1731432883/WhatsApp_Image_2024-11-12_at_23.01.36_e8919d76_neylqa.jpg",
     },
   ];
-  return(
+  return (
     <div>
-        <h1 className="mt-8 text-3xl font-extrabold text-center leading-tight tracking-tight bg-gradient-to-r from-gray-400 to-yellow-500 bg-clip-text text-transparent sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">
+      <h1 className="mt-8 text-3xl font-extrabold text-center leading-tight tracking-tight bg-gradient-to-r from-gray-400 to-yellow-500 bg-clip-text text-transparent sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">
         Our Team
       </h1>
       <AnimatedTestimonials testimonials={testimonials} />
