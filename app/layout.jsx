@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
           href="https://res.cloudinary.com/djyk287ep/image/upload/v1731309202/TJP_dgmjtt.png"
         />
       </head>
+      <script src="//code.tidio.co/6vebborvew4zznihd0zc7bdurgnczikq.js" async></script>
       <body className={inter.className}>
         <Navbar/>
         {children}
