@@ -68,3 +68,19 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  @keyframes gradient-shine {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+
+  .animate-gradient-shine {
+    background-size: 200% 200%;
+    animation: gradient-shine 6s linear infinite;
+  }
+}

@@ -9,6 +9,8 @@ import {
   FaUsers,
   FaPhoneAlt,
   FaServicestack,
+  FaProjectDiagram,
+  FaComments,
 } from "react-icons/fa"; // Import icons from react-icons
 import Link from "next/link";
 
@@ -34,9 +36,8 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-6">
           <Link
             href="/"
-            className={`relative group hover:text-blue-500 ${
-              activeLink === "home" ? "" : ""
-            }`}
+            className={`relative group hover:text-blue-500 ${activeLink === "home" ? "" : ""
+              }`}
             onClick={() => handleLinkClick("home")}
           >
             <FaHome className="inline-block mr-2" />
@@ -46,9 +47,8 @@ const Navbar = () => {
           </Link>
           <Link
             href="/about"
-            className={`relative group hover:text-blue-500 ${
-              activeLink === "about" ? "" : ""
-            }`}
+            className={`relative group hover:text-blue-500 ${activeLink === "about" ? "" : ""
+              }`}
             onClick={() => handleLinkClick("about")}
           >
             <FaInfoCircle className="inline-block mr-2" />
@@ -58,9 +58,8 @@ const Navbar = () => {
           </Link>
           <Link
             href="/team"
-            className={`relative group hover:text-blue-500 ${
-              activeLink === "team" ? "" : ""
-            }`}
+            className={`relative group hover:text-blue-500 ${activeLink === "team" ? "" : ""
+              }`}
             onClick={() => handleLinkClick("team")}
           >
             <FaUsers className="inline-block mr-2" />
@@ -70,8 +69,8 @@ const Navbar = () => {
           </Link>
           <Link
             href="/services"
-            className={`relative group hover:text-blue-500 ${
-              activeLink === "services" ? "" :""}`}
+            className={`relative group hover:text-blue-500 ${activeLink === "services" ? "" : ""
+              }`}
             onClick={() => handleLinkClick("services")}
           >
             <FaServicestack className="inline-block mr-2" />
@@ -80,10 +79,31 @@ const Navbar = () => {
             </span>
           </Link>
           <Link
+            href="/projects"
+            className={`relative group hover:text-blue-500 ${activeLink === "projects" ? "" : ""
+              }`}
+            onClick={() => handleLinkClick("projects")}
+          >
+            <FaProjectDiagram className="inline-block mr-2" />
+            <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+              Projects
+            </span>
+          </Link>
+          <Link
+            href="/testimonials"
+            className={`relative group hover:text-blue-500 ${activeLink === "testimonials" ? "" : ""
+              }`}
+            onClick={() => handleLinkClick("testimonials")}
+          >
+            <FaComments className="inline-block mr-2" />
+            <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 text-xs text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+              Testimonials
+            </span>
+          </Link>
+          <Link
             href="/contact"
-            className={`relative group hover:text-blue-500 ${
-              activeLink === "contact" ? "" : ""
-            }`}
+            className={`relative group hover:text-blue-500 ${activeLink === "contact" ? "" : ""
+              }`}
             onClick={() => handleLinkClick("contact")}
           >
             <FaPhoneAlt className="inline-block mr-2" />
@@ -94,9 +114,8 @@ const Navbar = () => {
           <Link
             href="https://github.com/techjantaparty"
             target="_blank"
-            className={`relative group hover:text-blue-500 ${
-              activeLink === "github" ? "" : ""
-            }`}
+            className={`relative group hover:text-blue-500 ${activeLink === "github" ? "" : ""
+              }`}
             onClick={() => handleLinkClick("github")}
           >
             <FaGithub className="inline-block mr-2" />
@@ -150,30 +169,45 @@ const Navbar = () => {
           </Link>
           <Link
             href="/services"
-            className={`block ${
-              activeLink === "services" ? "text-blue-500" : ""
-            }`}
+            className={`block ${activeLink === "services" ? "text-blue-500" : ""
+              }`}
             onClick={() => handleLinkClick("services")}
           >
             <FaServicestack className="inline-block mr-2" />
             Services
           </Link>
           <Link
+            href="/projects"
+            className={`block ${activeLink === "projects" ? "text-blue-500" : ""
+              }`}
+            onClick={() => handleLinkClick("projects")}
+          >
+            <FaProjectDiagram className="inline-block mr-2" />
+            Projects
+          </Link>
+          <Link
+            href="/testimonials"
+            className={`block ${activeLink === "testimonials" ? "text-blue-500" : ""
+              }`}
+            onClick={() => handleLinkClick("testimonials")}
+          >
+            <FaComments className="inline-block mr-2" />
+            Testimonials
+          </Link>
+          <Link
             href="/contact"
-            className={`block ${
-              activeLink === "contact" ? "text-blue-500" : ""
-            }`}
+            className={`block ${activeLink === "contact" ? "text-blue-500" : ""
+              }`}
             onClick={() => handleLinkClick("contact")}
           >
             <FaPhoneAlt className="inline-block mr-2" />
-            Hire
+            Contact
           </Link>
           <Link
             href="https://github.com/techjantaparty"
             target="_blank"
-            className={`block ${
-              activeLink === "github" ? "text-blue-500" : ""
-            }`}
+            className={`block ${activeLink === "github" ? "text-blue-500" : ""
+              }`}
             onClick={() => handleLinkClick("github")}
           >
             <FaGithub className="inline-block mr-2" />
