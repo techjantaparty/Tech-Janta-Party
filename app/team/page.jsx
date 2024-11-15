@@ -37,6 +37,13 @@ export default function AnimatedTestimonialsDemo() {
       designation: "Junior Dev @ TJP",
       src: "https://res.cloudinary.com/djyk287ep/image/upload/v1731432883/WhatsApp_Image_2024-11-12_at_23.01.36_e8919d76_neylqa.jpg",
     },
+    {
+      quote:
+        "Being a part of TJP has helped me gain knowledge as a coder from my fellow teammates as well as help me gain experience for my future endeavours",
+      name: "Kaustavi Mullick",
+      designation: "PR & Design @ TJP",
+      src: "https://res.cloudinary.com/djyk287ep/image/upload/v1731641970/WhatsApp_Image_2024-11-14_at_18.56.20_2ac9cee5_hsgdmw.jpg",
+    },
   ];
   return (
     <div>
