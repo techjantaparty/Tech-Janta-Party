@@ -4,15 +4,15 @@ import React from "react";
 export default function EvervaultCardDemo() {
   const cardData = [
     {
-      text: "We build both Web2.0 and Web3.0 websites with full proficiency using the top graded frameworks present in the market",
+      text: "We build both Web2.0 and Web3.0 websites with proficiency using top graded frameworks",
       cardContent: "Web Dev",
     },
     {
-      text: "Hover over this card to reveal an awesome effect. Card 2 description here.",
+      text: "We develop Android apps with top-rated tools, delivering high-quality and user-friendly solutions",
       cardContent: "Android",
     },
     {
-      text: "Hover over this card to reveal an awesome effect. Card 3 description here.",
+      text: "We develop AI tools using top-rated technologies to deliver efficient and innovative solutions",
       cardContent: "AI-ML",
     },
   ];
